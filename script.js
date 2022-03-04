@@ -7,7 +7,6 @@ for(let i = k.length-1; i >= 0; i--){
     "AnyaChenQT".charAt((k.length-i-1)%10).charCodeAt(0))
     /("ilysm".charAt((k.length-i-1)%5).charCodeAt(0)-96));
 }
-document.getElementById("demo").innerHTML += r;
 var x = parseInt(document.getElementById("myText1").value);
   var y = parseInt(document.getElementById("myText2").value);
   var z = parseInt(document.getElementById("myText3").value);
